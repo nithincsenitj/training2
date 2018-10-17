@@ -3,7 +3,7 @@ var app = express();
 app.use(express.static('public'));
 //app.use(express.static(__dirname + '/view'));
 
-app.get('/',function(req,res) {
+//app.get('/',function(req,res) {
   res.send('Hello world');
 })
 
